@@ -1,6 +1,6 @@
 class mr(object):
     PROGRESS_BAR = """\n
-╭━━━━❰ WebX Bot Renaming... ❱━➣
+╭━━━━❰ ᴛʜᴏʀ ʙᴏᴛ ʀᴇɴᴀᴍɪɴɢ.....❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
@@ -10,11 +10,11 @@ class mr(object):
     ABOUT_TXT = """
 ╭───────────⍟
 ├🤖 My Name is : {}
-├👑 CHANNEL : <a href=https://t.me/WebXBots>WebXBots</a> 
+├👑 CHANNEL : <a href=https://t.me/Thor_BotZ>ᴛʜᴏʀ ʙᴏᴛ </a> 
 ├📕 LIBRARY : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├✏️ LANGUAGE : <a href=https://www.python.org>Python 3</a>
 ├💾 DATABASE : <a href=https://cloud.mongodb.com>MongoDB</a>
-├🌀 𝚂𝙴𝚁𝚅𝙴𝚁 : <a href=https://www.oracle.com/cloud/>Render</a>
+├🌀 𝚂𝙴𝚁𝚅𝙴𝚁 : <a href=https://www.oracle.com/cloud/>Heroku</a>
 ├📊 BUILD-STATUS : Python v3.10.5              
 ╰───────────────⍟
                                 """
