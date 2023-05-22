@@ -18,7 +18,7 @@ async def start(client, message):
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton(" Developer ", callback_data='dev')
         ],[
-        InlineKeyboardButton('✨ Updates ✨', url='https://t.me/WebXBots')
+        InlineKeyboardButton('✨ Updates ✨', url='https://t.me/Thor_BotZ')
         ],[
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
@@ -67,7 +67,7 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
         InlineKeyboardButton(" Developer ", callback_data='dev')
         ],[
-        InlineKeyboardButton('✨ Updates ✨', url='https://t.me/WebXBots')
+        InlineKeyboardButton('✨ Updates ✨', url='https://t.me/Thor_BotZ')
         ],[
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
