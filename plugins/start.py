@@ -16,6 +16,8 @@ async def start(client, message):
         await db.add_user(user.id)             
     txt=f"👋 Hello {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with Custom thumbnail support.\n\nSend me any video or document !"
     button=InlineKeyboardMarkup([[
+        InlineKeyboardButton(" Developer ", callback_data='dev')
+        ],[
         InlineKeyboardButton('🤖 Updates ⚡', url='https://t.me/Thor_BotZ'),
         InlineKeyboardButton('💞 Owner ✨', url='https://t.me/Sujan_Ch')
         ],[
@@ -64,11 +66,13 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋 Hello {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !""",
             reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButton('🤖 Updates ⚡', url='https://t.me/Thor_BotZ'),
-        InlineKeyboardButton('💞 Owner ✨', url='https://t.me/Sujan_Ch')
-        ],[
-        InlineKeyboardButton(' About', callback_data='about'),
-        InlineKeyboardButton(' Help', callback_data='help')
+                       InlineKeyboardButton(" Developer ", callback_data='dev')
+                       ],[
+                       InlineKeyboardButton('🤖 Updates ⚡', url='https://t.me/Thor_BotZ'),
+                       InlineKeyboardButton('💞 Owner ✨', url='https://t.me/Sujan_Ch')
+                       ],[
+                       InlineKeyboardButton(' About', callback_data='about'),
+                       InlineKeyboardButton(' Help', callback_data='help')
         ]
         ]
                 )
